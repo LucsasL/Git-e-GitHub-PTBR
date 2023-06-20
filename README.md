@@ -5,6 +5,23 @@ Entender as ferramentas que nos ajuda no trabalho é fundamental para uma boa ca
 
 <h2>Conteúdo</h2>
 
+<h3>Nesse curso, Veremos os seguintes assuntos:</h3>
+
+<ul>
+    <li>O que é Git e Github, e as diferenças entre eles;</li>
+    <li>As funções e ferramentas presentes neles;</li>
+    <li>Sua criação e evolução através da história;</li>
+    <li>Criação de repositórios e primeiros passos;</li>
+    <li>GitHub Desktop no Linux;</li>
+    <li>Clonagem de repositórios;</li>
+    <li>Versionamento de projetos antigos;</li>
+    <li>Entendendo o funcionamento de Issues no GitHub;</li>
+    <li>Introdução a linguagem MarkDown</li>
+    <li>Segurança no GitHub;</li>
+    <li>Git Branches de forma fácil;</li>
+    <li>Hospedando seu site no GitHub.</li>
+</ul>
+
 <h2>Atualizações</h2>
 
 <h3>Atualização de avanço no curso - 20 de Junho de 2023</h3>
