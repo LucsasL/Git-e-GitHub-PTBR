@@ -7,6 +7,8 @@ Entender as ferramentas que nos ajuda no trabalho é fundamental para uma boa ca
 
 <h3>Nesse curso, Veremos os seguintes assuntos:</h3>
 
+Como o curso tem apenas um módulo e é relativamente curto as aulas vão ser mostradas em baixo:
+
 <ul>
     <li><a href="https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA&index=1" target="_blank" rel="external">Aula 01</a> - O que é Git e Github, e as diferenças entre eles;</li>
     <li><a href="https://www.youtube.com/watch?v=hcZ0qtwvN1w&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA&index=2" target="_blank" rel="external">Aula 02</a> - As funções e ferramentas presentes neles;</li>
