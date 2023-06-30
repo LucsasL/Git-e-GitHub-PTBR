@@ -22,7 +22,7 @@ Como o curso tem apenas um módulo e é relativamente curto as aulas vão ser mo
 - [Aula 11](https://www.youtube.com/watch?v=2Y0HXnYpn9E&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA&index=13) - Hospedando seu site no GitHub.
 
 
-***OBSERVAÇÃO:** Algumas aulas do curso não estão na lista por se tratarem da instalação das ferramentas, coisa que não irei abordar nesse repositório.*
+***OBSERVAÇÃO:** Algumas aulas do curso não estão na lista por se tratarem de conteúdos mais básicos, como a instalação das ferramentas utilizadas (GitHub desktop, Visual Studio Code, etc), coisa que não irei abordar nesse repositório.*
 
 ## Atualizações
 
