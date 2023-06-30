@@ -9,7 +9,7 @@ Entender as ferramentas que nos ajuda no trabalho é fundamental para uma boa ca
 
 Como o curso tem apenas um módulo e é relativamente curto as aulas vão ser mostradas em baixo:
 
-- Aula 01 - O que é Git e Github, e as diferenças entre eles;
+- [Aula 01](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA&index=1) - O que é Git e Github, e as diferenças entre eles;
 - Aula 02 - As funções e ferramentas presentes neles;
 - Aula 03 - Sua criação e evolução através da história;
 - Aula 04 - Criação de repositórios e primeiros passos;
