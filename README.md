@@ -27,6 +27,4 @@ Como o curso tem apenas um módulo e é relativamente curto as aulas vão ser mo
 
 <h3>Atualização de avanço no curso - 20 de Junho de 2023</h3>
 
-<p>
-    Estou iniciando o curso hoje, completei as primeiras aulas relacionadas a história e criação do Git e GitHub. Em breve terminarei o curso.
-</p>
+Estou iniciando o curso hoje, completei as primeiras aulas relacionadas a história e criação do Git e GitHub. Em breve terminarei o curso.
