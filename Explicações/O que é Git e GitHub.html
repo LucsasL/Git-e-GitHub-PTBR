@@ -6,47 +6,138 @@
     <title>O que é Git e GitHub?</title>
     
     <link rel="shortcut icon" href="../Imagens/Lucsas Logo for web.png" type="image/x-icon">
-    <link rel="stylesheet" href="../Estilo/style.css">
+
+    <link rel="stylesheet" href="../Estilo/style.css" media="all">
+
+    <link rel="stylesheet" href="../Estilo/media queries/telas-grandes.css" media="screen and (min-width: 1200px)">
 </head>
 <body>
     
-    <header>
-        <h1>
-            Curso de Git e GitHub
-        </h1>
+    <!-- TODAS AS EXPLICAÇÕES E IMGENS UTILIZADAS PARA REPRESENTAÇÕES TÉCNICAS DO CONTEÚDO SÃO DE AUTORIA DO PROF° GUSTAVO GUANABARA EM SEU CURSO DE GIT E GITHUB PARA O CURSO EM VÍDEO, ACESSE https://github.com/gustavoguanabara PARA VER A FONTE ORIGINAL.
+    
+    Acesso ao repositório com os materiais: https://github.com/gustavoguanabara/git-github/tree/master/slides-aulas -->
 
-        <p>
-            Com <a href="https://github.com/gustavoguanabara" target="_blank" rel="external">Gustavo Guanabara</a>
-        </p>
+    <header>
+        <div id="main-header">
+            <div>
+                <h1>
+                    Curso de Git e GitHub
+                </h1>
+                <p>
+                    Com <a href="https://github.com/gustavoguanabara" target="_blank" rel="external">Gustavo Guanabara</a>
+                </p>
+            </div>
+
+            <div>
+                <figure>
+                    <figcaption>
+                        <p>
+                            Git e GitHub
+                        </p>
+                    </figcaption>
+                        <img src="../Imagens/" alt="Git e GitHub">
+                </figure>
+            </div>
+        </div>
+
+        <nav>
+            <menu>
+                <ul>
+                    <li><a href="" target="_self" rel="next">O que é Git?</a></li>
+                    <li><a href="" target="_self" rel="next">O que é GitHub?</a></li>
+                    <li><a href="" target="_self" rel="next">Evolução do Git e GitHub</a></li>
+                    <li><a href="" target="_self" rel="next">Teste</a></li>
+                    <li><a href="" target="_self" rel="next">Teste</a></li>
+                    <li><a href="" target="_self" rel="next">Hospedagem de Sites GitHub</a></li>
+                </ul>
+            </menu>
+        </nav>
     </header>
 
-    <main>
-        <article>
-            <h1>
-                O que é Git e GitHub?
-            </h1>
+    <div id="container">
+        <main>
+            <div id="main-reading">
+                <article>
+                    <h1>
+                        O que é Git e GitHub?
+                    </h1>
+                    <h2>
+                        Git
+                    </h2>
+                    <p class="sub-header-paragraph">
+                        Principal <em>Software para Controle de Versão (VCS)</em>.
+                    </p>
 
-            <h2>
-                Git
-            </h2>
+                    <h3>
+                        O que é?
+                    </h3>
+                    
+                    <p>
+                        Git é um software de controle de versionamento que manipula as diferentes versões de seu programa e as transporta a um repositório local, onde habita seus arquivos de programação e códigos-fonte. Os commits podem ser diferenciados por "galhos" que ramificam seu projeto em multiplas versões e os controla otimizando assim a organização e facilitando sua vida com o desenvolvimento de aplicações.
+                    </p>
 
-            <p>
-                Git é o repositório local de seus arquivos de programação.
-            </p>
+                    <p>
+                        A sua utilização está intrinsicamente ligada a uma questão de produtividade e ordem, e os desenvolvedores a utilizam para evitar situações inconvenientes. Uma situação que muitos programadores passam durante o desenvolvimento de seus softwares, é a separação de várias pastas compactadas em seu computador com diferentes versões de um mesmo projeto, tendo em mente, a possibilidade de seu projeto desandar por um equivoco ou por erros por parte da equipe. Com isso, as pastas são criadas para que se recupere mais tarde, caso algo que não esteja no plano do cliente surja em sua construção.
+                    </p>
 
-            <h2>
-                GitHub
-            </h2>
+                    <figure>
+                        <img src="../Imagens/Git-Github-1.png" alt="">
 
-            <p>
-                GitHub é o repositório
-            </p>
-        </article>
-    </main>
+                        <figcaption>
+                            O desenvolvimento de projetos pode ser trabalhoso ao ponto da ordem do projeto desabar.
+                        </figcaption>
+                    </figure>
+                    
+                    <h3>
+                        Versions Control System (VCS)
+                    </h3>
+                    <p>
+                        A solução se encontra no uso de softwares de VCS. Os chamados <strong>Version Control System</strong>, ajudam a otimizar as versões de seus programas usando <em>branchs</em>, que não só organizam parte de seus projetos mas otimizam as separações e funções de seu grupo, para desenvolvimento pleno dos sistemas em questão. O Git, como foi brevemente abordado, é um desses softwares de versionamento, que ajudam a manter ordem nos projetos e facilitam a manipulação de suas mudanças através de ramificações.
+                    </p>
+
+                    <h3>
+                        Como funciona o Git?
+                    </h3>
+
+                    <p>
+                        Diferente das pastas compactadas guardadas em um computador, para a separação de versões, o Git faz um <abbr title="Ação que transporta dados a um servidor central">Commit</abbr> a uma singularidade de dados que são separados de acordo com o <abbr title="Versão ramificada de um programa">branch</abbr> em que se deseja colocar. O termo commit refere-se a ação de levar dados(arquivos) a um repositório central, que junta todos os os outros commits de diversas versões já realizadas de um projeto em uma determinada parte dele, podendo ser separada da forma em que o integrante do grupo deseja.
+                    </p>
+
+                    <h3>
+                        Os primeiros softwares de versionamento
+                    </h3>
+
+                    <p>
+                        No entanto, o Git não é uma novidade no mundo da computação e nem mesmo foi o primeiro Software de Versionamento que existiu durante o desenvolvimento dos computadores. O primeiro programa de Versionamento de softwares passou a existir no ano de 1972, de uma forma completamente diferente:
+                    </p>
+
+                    <p>
+                        Os softwares de versionamento da época tinham uma grande limitação, para a realização de um commit, era necessário manter conexão constante com o servidor, caso contrario, você não seria capaz de vizualizar seu código.
+                    </p>
+
+                    <h2>
+                        GitHub
+                    </h2>
+                    <p class="sub-header-paragraph">
+                        Diferente do Git, o GitHub não se trata de um versionamento de software, ele na verdade, é uma rede social de programadores.
+                    </p>
+                    <p>
+                        GitHub é o r
+                    </p>
+                </article>
+            </div>
+        </main>
+    </div>
 
     <footer>
         <p>
-            Site criado por <a href="https://github.com/LucsasL" target="_blank" rel="external">Lucas Lira</a>
+            Site e textos criados por <a href="https://github.com/LucsasL" target="_blank" rel="noopener noreferrer">Lucas Lira</a>
+        </p>
+
+        <hr>
+
+        <p>
+            Explicações e imagens por <a href="http://github.com/gustavoguanabara" target="_blank" rel="noopener noreferrer">Gustavo Guanabara</a> para o <a href="https://www.youtube.com/@CursoemVideo" target="_blank" rel="noopener noreferrer">Curso em vídeo.</a>
         </p>
     </footer>
 

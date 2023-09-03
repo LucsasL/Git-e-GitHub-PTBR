@@ -1,22 +1,129 @@
 @charset "UTF-8";
 
-:root {
-    --fonte-padrão: Arial, Verdana, Helvetica sans-serif;
+/* General settings */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-body {
-    margin: 0 !important;
+::-webkit-scrollbar {
+    display: none;
+}
 
-    font-family: var(--fonte-padrão);
+html, body {
+    font-size: 1em;
+
+    width: 100vw;
+    height: 100vh;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Texts Format */
+article p {
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 16px;
+
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+
+article p {
+    text-indent: 30px;
+}
+
+article p.sub-header-paragraph {
+    text-indent: 0px;
+}
+
+/* Box settings */
+header {
+    background-color: #2321fe;
+    color: white;
+
+    height: 170px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header > div#main-header {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    background-color: white;
+    height: 60px;
+    border-bottom: 3px solid #2321fe;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+menu > ul > li {
+    color: #2321fe;
+
+    display: inline;
+    padding: 10px 15px;
+}
+
+menu a {
+    color: #2321fe;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 11px 15px;
+
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+menu a:hover {
+    background-color: #2321fe;
+    color: #fff;
+
+    transition: .3s;
+    text-decoration: none;
+}
+
+article {
+    padding: 20px;
+    margin-top: 30px;
 }
 
 footer {
     background-color: black;
     color: white;
 
-    padding: 1px;
+    height: 80px;
+    padding: 3px;
+    padding-top: 10px;
+    margin-top: auto;
 
     text-align: center;
+}
+
+footer hr {
+    width: 80vw;
 }
 
 footer p {
@@ -32,4 +139,21 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* Media settings */
+figure {
+    margin-bottom: 20px;
+}
+
+figcaption {
+    font-size: 0.9em;
+}
+
+header figcaption {
+    display: none;
+}
+
+main img {
+    width: 100%;
 }

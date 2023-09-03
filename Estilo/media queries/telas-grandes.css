@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+main {
+    width: 80vw;
+    margin: auto;
+}
+
+div#main-reading {
+    width: 70%;
+}

@@ -22,10 +22,20 @@ Como o curso tem apenas um módulo e é relativamente curto as aulas vão ser mo
 - [Aula 11](https://www.youtube.com/watch?v=2Y0HXnYpn9E&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA&index=13) - Hospedando seu site no GitHub.
 
 
-***OBSERVAÇÃO:** Algumas aulas do curso não estão na lista por se tratarem de conteúdos mais básicos, como a instalação das ferramentas utilizadas (GitHub desktop, Visual Studio Code, etc), coisa que não irei abordar nesse repositório.*
+***OBSERVAÇÕES:** Algumas aulas do curso não estão na lista por se tratarem de conteúdos mais básicos, como a instalação das ferramentas utilizadas (GitHub desktop, Visual Studio Code, etc), coisa que não irei abordar nesse repositório.*
+
+**TODAS AS EXPLICAÇÕES E IMGENS UTILIZADAS PARA REPRESENTAÇÕES TÉCNICAS DO CONTEÚDO SÃO DE AUTORIA DO *PROF° GUSTAVO GUANABARA* EM SEU CURSO DE *GIT E GITHUB* PARA O *CURSO EM VÍDEO*, ACESSE https://github.com/gustavoguanabara PARA VER A FONTE ORIGINAL**
+
+Acesso ao repositório com os materiais: [https://github.com/gustavoguanabara/git-github/tree/master/slides-aulas](https://github.com/gustavoguanabara/git-github/tree/master/slides-aulas)
 
 ## Atualizações
 
 ### Atualização de avanço no curso - 20 de Junho de 2023
 
 Estou iniciando o curso hoje, completei as primeiras aulas relacionadas a história e criação do Git e GitHub. Em breve terminarei o curso.
+
+### Finalmente... Primeiros textos disponíveis + Página do conteúdo - 3 de Setembro de 2023
+
+Bem... Eu estive enrolando pra criar o conteúdo desse repositório, e embora eu já tenha acabado de fazer o curso e entenda tudo que foi ensinado nele, eu não via o porque de colocar coisas nesse repositório, já que não tem muito código envolvido no curso, e conhecimento técnico e o mais valioso nos repositórios do GitHub.
+
+Porém, como pretendo aprender o que me foi ensinado no curso de forma definita, pretendo criar textos explicatórios e desenvolver também um pouco dos conhecimentos técnicos de Git no futuro. Eu finalmente vou melhorar o repositório.
