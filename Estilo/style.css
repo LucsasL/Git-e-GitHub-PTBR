@@ -21,6 +21,22 @@ html, body {
 }
 
 /* Texts Format */
+article h1 {
+    font-size: 2.2em;
+}
+
+article h2 {
+    font-size: 2em;
+}
+
+article h3 {
+    font-size: 1.7em;
+}
+
+article h4 {
+    font-size: 1.3em;
+}
+
 article p {
     text-align: justify;
     margin-top: 10px;
@@ -36,6 +52,14 @@ article p {
 
 article p.sub-header-paragraph {
     text-indent: 0px;
+}
+
+ul {
+    margin: 15px;
+}
+
+li {
+    margin: 8px 0px;
 }
 
 /* Box settings */

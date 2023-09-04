@@ -28,6 +28,12 @@ Como o curso tem apenas um módulo e é relativamente curto as aulas vão ser mo
 
 Acesso ao repositório com os materiais: [https://github.com/gustavoguanabara/git-github/tree/master/slides-aulas](https://github.com/gustavoguanabara/git-github/tree/master/slides-aulas)
 
+## Páginas das aulas
+
+- [O que é Git?]()
+
+- [O que é GitHub?]()
+
 ## Atualizações
 
 ### Atualização de avanço no curso - 20 de Junho de 2023
