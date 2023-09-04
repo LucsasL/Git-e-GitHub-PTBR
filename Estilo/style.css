@@ -34,7 +34,7 @@ article h3 {
 }
 
 article h4 {
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 article p {
@@ -59,7 +59,17 @@ ul {
 }
 
 li {
+    font-size: 1.1em;
     margin: 8px 0px;
+}
+
+article a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
 }
 
 /* Box settings */
@@ -144,10 +154,6 @@ footer {
     margin-top: auto;
 
     text-align: center;
-}
-
-footer hr {
-    width: 80vw;
 }
 
 footer p {
