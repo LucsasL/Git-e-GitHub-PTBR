@@ -34,6 +34,7 @@ article h3 {
 }
 
 article h4 {
+    margin-top: 10px;
     font-size: 1.4em;
 }
 
@@ -51,7 +52,11 @@ article p {
 }
 
 article p.sub-header-paragraph {
+    font-size: 1.3em;
     text-indent: 0px;
+    text-align: left;
+
+    width: 70%;
 }
 
 ul {
