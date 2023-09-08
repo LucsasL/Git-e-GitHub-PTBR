@@ -63,6 +63,14 @@ article span.tech-date {
     font-size: .5em;
 }
 
+table caption {
+    display: none;
+}
+
+table span {
+    font-style: italic;
+}
+
 ul {
     margin: 15px;
 }
@@ -195,4 +203,15 @@ header figcaption {
 
 main img {
     width: 100%;
+}
+
+article table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
 }
