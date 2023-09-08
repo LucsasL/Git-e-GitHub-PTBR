@@ -67,6 +67,10 @@ article span.tech-date {
     font-size: .5em;
 }
 
+article p.indent-zero {
+    text-indent: 0;
+}
+
 table caption {
     display: none;
 }
@@ -132,6 +136,10 @@ nav {
     justify-content: center;
 }
 
+menu {
+    display: none;
+}
+
 menu > ul > li {
     color: #2321fe;
 
@@ -171,11 +179,22 @@ article table {
     margin: 20px 0px;
 }
 
-th, td {
-    border: 1px solid black;
+table th, td {
+    border: 1px solid rgb(131, 131, 131);
     padding: 8px;
 }
 
+table tr:nth-child(even) {
+    background-color: rgb(235, 235, 235);
+}
+
+table th {
+    background-color: rgb(235, 235, 235);
+}
+
+table td.first-col {
+    text-align: center;
+}
 
 footer {
     background-color: black;
@@ -202,6 +221,33 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* Section nav settings */
+div#section-nav {
+    display: none;
+    position: sticky;
+    top: 15%;
+
+    font-size: 12px;
+}
+
+div#section-nav h1 {
+    font-size: 13px;
+}
+
+div#section-nav ul li {
+    list-style-type: none;
+    text-indent: 0;
+}
+
+div#section-nav a {
+    color: #838383;
+    text-decoration: none;
+}
+
+div#section-nav a:hover {
+    color: #2321fe;
 }
 
 /* Media settings */
