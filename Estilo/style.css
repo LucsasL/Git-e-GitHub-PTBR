@@ -250,6 +250,10 @@ div#section-nav a:hover {
     color: #2321fe;
 }
 
+details > summary {
+    list-style: none;
+}
+
 /* Media settings */
 figure {
     margin-bottom: 20px;
