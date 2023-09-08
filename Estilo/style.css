@@ -236,7 +236,7 @@ div#section-nav h1 {
     font-size: 13px;
 }
 
-div#section-nav ul li {
+div#section-nav ul li, details {
     list-style-type: none;
     text-indent: 0;
 }
