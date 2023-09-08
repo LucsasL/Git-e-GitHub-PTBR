@@ -23,19 +23,23 @@ html, body {
 /* Texts Format */
 article h1 {
     font-size: 2.2em;
+    font-weight: normal;
 }
 
 article h2 {
     font-size: 2em;
+    font-weight: normal;
 }
 
 article h3 {
     font-size: 1.7em;
+    font-weight: normal;
 }
 
 article h4 {
     margin-top: 10px;
     font-size: 1.4em;
+    font-weight: normal;
 }
 
 article p {
@@ -161,6 +165,18 @@ article {
     margin-top: 30px;
 }
 
+article table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+
 footer {
     background-color: black;
     color: white;
@@ -195,6 +211,7 @@ figure {
 
 figcaption {
     font-size: 0.9em;
+    color: #242424;
 }
 
 header figcaption {
@@ -205,13 +222,11 @@ main img {
     width: 100%;
 }
 
-article table {
-    border-collapse: collapse;
+iframe {
     width: 100%;
-    margin: 20px 0px;
+    height: 490px;
 }
 
-th, td {
-    border: 1px solid black;
-    padding: 8px;
+form input {
+    width: 100%;
 }
