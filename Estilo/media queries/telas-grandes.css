@@ -18,12 +18,15 @@ div#main-reading {
     width: 75%;
 }
 
+div#section-container {
+    width: 20%;
+}
+
 div#section-nav {
     display: block;
-    width: 20%;
 
     position: sticky;
-    top: 15%;
+    top: 5%;
     margin-top: 30px;
     padding: 20px;
 }

@@ -224,10 +224,14 @@ footer a:hover {
 }
 
 /* Section nav settings */
+div#section-container {
+    position: relative;
+}
+
 div#section-nav {
     display: none;
     position: sticky;
-    top: 15%;
+    top: 1%;
 
     font-size: 12px;
 }
@@ -239,6 +243,7 @@ div#section-nav h1 {
 div#section-nav a {
     color: #838383;
     text-decoration: none;
+    padding-left: 5px;
 }
 
 div#section-nav a:hover {
@@ -249,6 +254,7 @@ div#section-nav a:hover {
 div#section-nav ul li {
     list-style: none;
     color: #838383;
+    padding-left: 5px;
 }
 
 details > summary {
@@ -256,6 +262,8 @@ details > summary {
     color: #838383;
     cursor: pointer;
     margin: 7px 0px;
+    padding-left: 9px;
+    font-size: 14px;
 }
 
 details > summary:hover {
