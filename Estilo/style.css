@@ -248,6 +248,7 @@ div#section-nav a:hover {
 
 div#section-nav ul li {
     list-style: none;
+    color: #838383;
 }
 
 details > summary {
