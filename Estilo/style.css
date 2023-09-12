@@ -99,7 +99,7 @@ article a:hover {
 
 /* Box settings */
 header {
-    background-color: #2321fe;
+    background-image: linear-gradient(to right, #2321fe, rgb(71, 148, 255));
     color: white;
 
     height: 170px;
