@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hospedagem de sites - Curso de Git e GitHub</title>
+    <title>Guia da Linguagem Markdown - Curso de Git e GitHub</title>
 
     <link rel="shortcut icon" href="../Imagens/Lucsas Logo for web.png" type="image/x-icon">
 
@@ -25,7 +25,7 @@
     
     <header>
         <div id="main-header">
-            <div>
+            <div id="title">
                 <h1>
                     Curso de Git e GitHub
                 </h1>
@@ -34,14 +34,14 @@
                 </p>
             </div>
 
-            <div>
+            <div id="header-image">
                 <figure>
                     <figcaption>
                         <p>
                             Git e GitHub
                         </p>
                     </figcaption>
-                        <img src="../Imagens/" alt="Git e GitHub">
+                        <img src="../Imagens/git+github.png" alt="Git e GitHub">
                 </figure>
             </div>
         </div>
@@ -140,7 +140,7 @@
                         Por priorizar a simplicidade e a facilidade de leitura no code, o markdown segue um padrão bem simples na composição de suas sintaxes, para ajudar os coders a ler e entender os códigos plenamente, sem ter que quebrar a cabeça lendo um simples paragrafos. Abaixo, coloco todas as tags de markdown existentes e as comparo com suas versões em HTML, com a finalidade de ajudar no entendimento da linguagem.
                     </p>
 
-                    <h3>
+                    <h3 id="cab">
                         Cabeçalhos/Títulos
                     </h3>
 
@@ -254,7 +254,7 @@
                         </tbody>
                     </table>
 
-                    <h3>
+                    <h3 id="par">
                         Paragrafos
                     </h3>
 
@@ -262,7 +262,7 @@
                         A função mais comum de um documento markdown e de marcação também, são os paragrafos, pois os mesmos desenvolvem o conteúdo do que veremos em uma página que usa markdown. Para usar os paragrafos basta dar um espaço antes de escrever um conteúdo, e com apenas isso você já estará organizando os paragrafos no código.
                     </p>
 
-                    <h3>
+                    <h3 id="br">
                         Quebra de linha
                     </h3>
 
@@ -270,7 +270,7 @@
                         Utilize "\" para quebrar a linha em um documento.
                     </p>
 
-                    <h3>
+                    <h3 id="enfp">
                         Ênfase de palavras
                     </h3>
 
@@ -278,7 +278,7 @@
                         Em markdown, existem diversas formas de se destacar um texto, dentre elas temos:
                     </p>
 
-                    <h4>
+                    <h4 id="neg">
                         Negrito
                     </h4>
 
@@ -292,7 +292,7 @@
                         </p>
                     </iframe>
 
-                    <h4>
+                    <h4 id="ita">
                         Italico
                     </h4>
 
@@ -300,7 +300,7 @@
                         De forma similar a aplicar negrito em um texto, basta colocar um asterisco (*) ao redor do que desejar e assim você terá um texto em italico.
                     </p>
 
-                    <h4>
+                    <h4 id="negita">
                         Negrito e italico
                     </h4>
 
@@ -316,7 +316,7 @@
                         Podemos citar tanto frases ditas entre os usuários em sites ou utilizar isso como forma de explicação do que fazer ou que realizar. Dentre as formas de fazer isso podemos:
                     </p>
 
-                    <h4>
+                    <h4 id="citlin">
                         Citações em linha
                     </h4>
 
@@ -324,7 +324,7 @@
                         coloque 
                     </p>
 
-                    <h4>
+                    <h4 id="citblo">
                         Citações em bloco
                     </h4>
 
@@ -336,7 +336,7 @@
                         Listas
                     </h3>
 
-                    <h4>
+                    <h4 id="listord">
                         Listas Ordenadas 
                     </h4>
 
@@ -356,7 +356,7 @@
                         </code>
                     </pre>
 
-                    <h4>
+                    <h4 id="listdes">
                         Listas Desordenadas
                     </h4>
 
@@ -373,7 +373,7 @@
                         </code>
                     </pre>
 
-                    <h4>
+                    <h4 id="elelist">
                         Elementos adicionais em listas
                     </h4>
 
@@ -389,12 +389,12 @@
                         Como códigos são um dos principais assuntos quanto se trata de criar documentos markdown e se conectar com outras pessoas, a linguagem também tem sintaxes para descrever códigos, podendo ser demonstrado de multiplas maneiras:
                     </p>
 
-                    <h4>
+                    <h4 id="codli">
                         Códigos em linhas
                     </h4>
 
                     <p>
-                        Utilize a Craze (`) ao redor de um termo e assim você criara uma exemplificação de um código de forma inline: 
+                        Utilize a Crase (`) ao redor de um termo e assim você criara uma exemplificação de um código de forma inline: 
                     </p>
 
                     <pre>
@@ -403,12 +403,12 @@
                         </code>
                     </pre>
 
-                    <h4>
+                    <h4 id="codblo">
                         Blocos de códigos
                     </h4>
 
                     <p>
-                        Há também a forma mais comum e útil, que serve para demonstrar códigos mais complexos e maiores que os citados anteriormente, pra isso é necessário criar caixas grandes que contem os códigos com sua formatação original, para isso, vá a uma linha em branco e circumde o código desejado entre três crazes (```). 
+                        Há também a forma mais comum e útil, que serve para demonstrar códigos mais complexos e maiores que os citados anteriormente, pra isso é necessário criar caixas grandes que contem os códigos com sua formatação original, para isso, vá a uma linha em branco e circumde o código desejado entre três crases (```). 
                     </p>
 
                     <pre>
@@ -422,7 +422,7 @@
                         </code>
                     </pre>
 
-                    <h3>
+                    <h3 id="hr">
                         Linhas Horizontais
                     </h3>
 
@@ -438,13 +438,49 @@
                         Aplique o texto de referência entre os colchetes e o link onde se deseja colocar o link entre os parênteses, dessa forma você ira imitar a tag de link do HTML em Markdown, e conectará a um novo endereço.
                     </p>
 
+                    <h4 id="linkhea">
+                        Adicionando links em títulos
+                    </h4>
+
+                    <p>
+
+                    </p>
+
+                    <h4 id="linkurl">
+                        URL e emails
+                    </h4>
+
+                    <p>
+
+                    </p>
+
+                    <h4 id="forlink">
+                        Formatando Links
+                    </h4>
+
+                    <p>
+
+                    </p>
+
+                    <h4 id="stylink">
+                        Estilização de links de referência
+                    </h4>
+
+                    <p>
+
+                    </p>
+
+                    <h4 id="goodlink">
+                        Boas práticas no uso de links
+                    </h4>
+
                     <pre>
                         <code>
                             [Aqui vem a descrição](Aqui vem o link)
                         </code>
                     </pre>
 
-                    <h3>
+                    <h3 id="img">
                         Imagens
                     </h3>
 
@@ -459,27 +495,6 @@
                     </pre>
 
                     <iframe src="iframes/imagens.html" frameborder="0">
-                        <p>
-                            Infelizmente seu navegador não é compativel com a função iframe.
-                        </p>
-                    </iframe>
-
-                    <h3>
-                        Tabelas
-                    </h3>
-
-                    <p>
-                        Basta utilizar barras verticais e hifens:
-                    </p>
-
-                    <pre>
-                        <code>
-                            |Nome |Nota |
-                            |Luciano |10 |
-                        </code>
-                    </pre>
-
-                    <iframe src="iframes/" frameborder="0">
                         <p>
                             Infelizmente seu navegador não é compativel com a função iframe.
                         </p>
@@ -651,6 +666,236 @@
                     </p>
 
                     <h2>
+                        Sintaxes extendidas
+                    </h2>
+
+                    <p>
+                        Em situações mais casuais, as tags simples do markdown já ajudam o bastante para criar documentos de textos simples e intuitivos, porém, existem extensões das tags que oferecem mais possibilidades para as formatações, sendo essas utilizadas em explicações especificas ou para documentar algo mais complexo, como tabelas, elementos químicos, equações matematicas entre outros.
+                    </p>
+
+                    <p>
+                        Porém, essas tags extendidas nem sempre seram compatíveis com o lugar que você usa elas, por isso existem alguns conjuntos adicionais.
+                    </p>
+
+                    <p>
+                        Veja a seguir as extensões das tags:
+                    </p>
+
+                    <h3>
+                        Tabelas
+                    </h3>
+
+                    <p>
+                        Basta utilizar barras verticais e hifens:
+                    </p>
+
+                    <pre>
+                        <code>
+                            | Nome      | Nota    |
+                            | --------- | ------- |
+                            | Luciano   | 10      |
+                        </code>
+                    </pre>
+
+                    <iframe src="iframes/" frameborder="0">
+                        <p>
+                            Infelizmente seu navegador não é compativel com a função iframe.
+                        </p>
+                    </iframe>
+
+                    <p>
+                        A largura das grades também podem variar, como mostrado abaixo:
+                    </p>
+
+                    <pre>
+                        <code>
+                            | Nome | Nota |
+                            | ---- | ---- |
+                            | Leonardo | 10 |
+                        </code>
+                    </pre>
+
+                    <h4 id="alitab">
+                        Alinhamento em tabelas
+                    </h4>
+
+                    <p>
+
+                    </p>
+
+                    <h4 id="fortab">
+                        Formatações em tabela
+                    </h4>
+
+                    <p>
+
+                    </p>
+
+                    <h4 id="barrver">
+                        Evitando o uso de barras verticais nas tabelas
+                    </h4>
+
+                    <p>
+                        Você também pode evitar o uso de barras verticais(|) usando o código em HTML (&#38;#124;).
+                    </p>
+
+                    <h3 id="codcer">
+                        Códigos em bloco cercados
+                    </h3>
+
+                    <p>
+
+                    </p>
+
+                    <h4 id="destsin">
+                        Destaque de Sintaxe
+                    </h4>
+
+                    <p>
+
+                    </p>
+
+                    <h3 id="notrod">
+                        Notas de Rodapé
+                    </h3>
+
+                    <p>
+
+                    </p>
+
+                    <h3 id="idcab">
+                        Identificadores de Cabeçalho
+                    </h3>
+
+                    <p>
+                        
+                    </p>
+
+                    <h4 id="id">
+                        Ligação aos identificadores de Cabeçalhos
+                    </h4>
+
+                    <p>
+
+                    </p>
+
+                    <h3 id="listdef">
+                        Listas de Definições
+                    </h3>
+
+                    <p>
+
+                    </p>
+
+                    <h3 id="delword">
+                        Palavras marcadas
+                    </h3>
+
+                    <p>
+
+                    </p>
+
+                    <h3 id="listtar">
+                        Listas de Tarefas
+                    </h3>
+
+                    <p>
+
+                    </p>
+
+                    <h3>
+                        Emojis
+                    </h3>
+
+                    <p>
+                        
+                    </p>
+
+                    <h4 id="copemo">
+                        Copiando emojis
+                    </h4>
+
+                    <p>
+
+                    </p>
+
+                    <h4 id="codemo">
+                        Usando códigos de atalho para emoji
+                    </h4>
+
+                    <p>
+
+                    </p>
+
+                    <h3 id="dest">
+                        Destaque
+                    </h3>
+
+                    <p>
+
+                    </p>
+
+                    <h3 id="txtsub">
+                        Texto subscrito
+                    </h3>
+
+                    <p>
+                        Em química, por exemplo, existem números e letras que aparecem pequenos e abaixo dos caracteres padrões
+                    </p>
+
+                    <h3 id="txtsob">
+                        Texto Superescrito
+                    </h3>
+
+                    <p>
+
+                    </p>
+
+                    <h3 id="autolink">
+                        Ligação automática de links
+                    </h3>
+
+                    <p>
+                        Na maior parte dos casos, os links se conectaram automáticamente ao domínio desejado
+                    </p>
+
+                    <pre>
+                        <code>
+                            https://github.com/lucsasl
+                        </code>
+                    </pre>
+
+                    <p>
+                        A saída do código será demonstrada da seguinte forma:
+                    </p>
+
+                    <p class="indent-zero">
+                        <a href="http://github.com/lucsas" target="_blank" rel="noopener noreferrer">https://github.com/lucsasl</a>
+                    </p>
+
+                    <h3 id="deslink">
+                        Desabilitando ligações de link automática
+                    </h3>
+
+                    <p>
+                        Existe a possibilidade de desligar essa ligação automática dos links, para ocasiões em que há , basta utilizar crases (`) para rodear o link, fazendo-o inacessível através do clique.
+                    </p>
+
+                    <pre>
+                        <code>
+                            `https://github.com/lucsasl`
+                        </code>
+                    </pre>
+
+                    <p>
+                        A saída do código será demonstrada da seguinte forma:
+                    </p>
+
+                    <p class="indent-zero">
+                        https://github.com/lucsasl
+                    </p>
+
+                    <h2>
                         Referências
                     </h2>
 
@@ -689,96 +934,216 @@
                                 </li>
                             </ul>
                         </details>
-                    </ul>
-                    <ul>
-                        <li><a href="">Sintaxes do Markdown</a></li>
-                        <ul>
-                            <li>
-                                <a href="">Cabeçalhos/Títulos</a>
-                            </li>
-                            <li>
-                                <a href="">Paragrafo</a>
-                            </li>
-                            <li>
-                                <a href="">Quebra de linha</a>
-                            </li>
-                            <details>
-                                <summary>Ênfase de palavras</summary>
-                                <ul>
-                                    <li>
-                                        <a href="">Negrito</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Italico</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Negrito e Italico</a>
-                                    </li>
-                                </ul>
-                            </details>
-                            <details>
-                                <summary>Citações</summary>
-                                <ul>
-                                    <li>
-                                        a{Citações em linhas}
-                                    </li>
 
-                                    <li>
-                                        <a href="">Citações em bloco</a>
-                                    </li>
-                                </ul>
-                            </details>
-                            <details>
-                                <summary>Listas</summary>
-                                <ul>
-                                    <li>
-                                        <a href="">Listas Ordenadas</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Listas Desordenadas</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Elementos adicionais em listas</a>
-                                    </li>
-                                </ul>
-                            </details>
-                            <details>
-                                <summary>Códigos</summary>
-                                <ul>
-                                    <li>
-                                        <a href="">Códigos em linhas</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Códigos em blocos</a>
-                                    </li>
-                                </ul>
-                            </details>
-                            <li>
-                                <a href="">Linhas Horizontais</a>
-                            </li>
-                            <li>
+                        <li>
+                            <a href="#">Sintaxes do Markdown</a>
+
+                            <ul>
+                                <li>
+                                    <a href="#cab">Cabeçalhos/Títulos</a>
+                                </li>
+                                <li>
+                                    <a href="#par">Paragrafo</a>
+                                </li>
+                                <li>
+                                    <a href="#br">Quebra de linha</a>
+                                </li>
                                 <details>
-                                    <summary>Links</summary>
-                                <ul>
-                                    <li>
-                                        a{}
-                                    </li>
-                                </ul>
+                                    <summary>
+                                        <a href="#enfp" style="">Ênfase de palavras</a>
+                                    </summary>
+
+                                    <ul>
+                                        <li>
+                                            <a href="#neg">Negrito</a>
+                                        </li>
+                                        <li>
+                                            <a href="#ita">Italico</a>
+                                        </li>
+                                        <li>
+                                            <a href="#negita">Negrito e Italico</a>
+                                        </li>
+                                    </ul>
                                 </details>
-                            </li>
-                            <li>
-                                <a href="">Imagens</a>
-                            </li>
-                            <li>
-                                <a href="">Tabelas</a>
-                            </li>
-                            <li>
-                                <a href="">Caracteres de sintaxes</a>
-                            </li>
-                            <li>
-                                <a href="">HTML</a>
-                            </li>
-                        </ul>
+                                <details>
+                                    <summary>Citações</summary>
+                                    <ul>
+                                        <li>
+                                            <a href="#citlin">Citações em linhas</a>
+                                        </li>
+    
+                                        <li>
+                                            <a href="#citblo">Citações em bloco</a>
+                                        </li>
+                                    </ul>
+                                </details>
+                                <details>
+                                    <summary>Listas</summary>
+                                    <ul>
+                                        <li>
+                                            <a href="#listord">Listas Ordenadas</a>
+                                        </li>
+                                        <li>
+                                            <a href="#listdes">Listas Desordenadas</a>
+                                        </li>
+                                        <li>
+                                            <a href="#elelist">Elementos adicionais em listas</a>
+                                        </li>
+                                    </ul>
+                                </details>
+                                <details>
+                                    <summary>Códigos</summary>
+                                    <ul>
+                                        <li>
+                                            <a href="#codlin">Códigos em linhas</a>
+                                        </li>
+                                        <li>
+                                            <a href="#codblo">Códigos em blocos</a>
+                                        </li>
+                                    </ul>
+                                </details>
+                                <li>
+                                    <a href="#hr">Linhas Horizontais</a>
+                                </li>
+                                <li>
+                                    <details>
+                                        <summary>Links</summary>
+                                        <ul>
+                                            <li>
+                                                <a href="#linkhea">Adicionando link a títulos</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#linkurl">URL e endereços de email</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#forlink">Formatando links</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#stylink">Estilização de links de referência</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#goodlink">Boas práticas no uso de links</a>
+                                            </li>
+                                        </ul>
+                                    </details>
+                                </li>
+                                <li>
+                                    <a href="#img">Imagens</a>
+                                </li>
+                                <li>
+                                    <a href="#carsin">Caracteres de sintaxes</a>
+                                </li>
+                                <li>
+                                    <a href="#html">HTML</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="">Sintaxes extendidas</a>
+
+                            <ul>
+                                <details>
+                                    <summary>
+                                        Tabelas
+                                    </summary>
+    
+                                    <ul>
+                                        <li>
+                                            <a href="#alitab">Alinhamento em tabelas</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#fortab">Formatações em tabelas</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="#barrver">Isenção do uso de barras verticais</a>
+                                        </li>
+                                    </ul>
+                                </details>
+
+                                <details>
+                                    <summary>
+                                        <a href="#codcer">Códigos em blocos cercados</a>
+                                    </summary>
+
+                                    <ul>
+                                        <li>
+                                            <a href="#destsin">Destaque de Sintaxe</a>
+                                        </li>
+                                    </ul>
+                                </details>
+
+                                <li>
+                                    <a href="#notrod">Notas de Rodapé</a>
+                                </li>
+
+                                <details>
+                                    <summary>
+                                        Identificadores de Cabeçalho
+                                    </summary>
+
+                                    <ul>
+                                        <li>
+                                            <a href="#idcab">Ligações aos identificadores de Cabeçalhos</a>
+                                        </li>
+                                    </ul>
+                                </details>
+
+                                <li>
+                                    <a href="#listdef">Listas de Definições</a>
+                                </li>
+
+                                <li>
+                                    <a href="#delword">Palavras marcadas</a>
+                                </li>
+
+                                <li>
+                                    <a href="#listtar">Listas de Tarefas</a>
+                                </li>
+
+                                <details>
+                                    <summary>
+                                        Emojis
+                                    </summary>
+
+                                    <ul>
+                                        <li>
+                                            <a href="#copemo">Copiando emojis</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#codemo">Usando códigos de atalho para emoji</a>
+                                        </li>
+                                    </ul>
+                                </details>
+
+                                <li>
+                                    <a href="#dest">Destaque</a>
+                                </li>
+
+                                <li>
+                                    <a href="#txtsub">Texto subscrito</a>
+                                </li>
+
+                                <li>
+                                    <a href="#txtsob">Texto Sobrescrito</a>
+                                </li>
+
+                                <li>
+                                    <a href="#autolink">Ligações automática de links</a>
+                                </li>
+
+                                <li>
+                                    <a href="#deslink">Desabilitando ligações de link automática</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
