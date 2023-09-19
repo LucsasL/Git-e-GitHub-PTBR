@@ -720,15 +720,32 @@
                     </h4>
 
                     <p>
-
+                        Podemos alinhar textos nas colunas para a esquerda, para direita e no centro apenas ao colocar dois pontos (:) em uma das celulas da coluna. Para escolher o lado que se deseja alinhar, basta colocar os dois pontos na direção desejada, sendo , e nos dois lados para alinhar no centro.
                     </p>
+                    
+                    <pre>
+                        <code>
+                            | Sintaxe     | Uso     | Texto       |
+                            | :---        | :----:  |        ---: |
+                            | Cabeçalho   | Título  | *Descrição* |
+                            | Paragrafo   | Texto   |             |
+                        </code>
+                    </pre>
+
+                    <p>
+                        A saída do código será demonstrada da seguinte forma:
+                    </p>
+
+                    <iframe src="" frameborder="0">
+                        
+                    </iframe>
 
                     <h4 id="fortab">
                         Formatações em tabela
                     </h4>
 
                     <p>
-
+                        Há a possibilidade de se formatar textos dentro de celulas de uma tabela. Você pode adicionar links, códigos em linha (através de crases(`)), e ênfase em geral.
                     </p>
 
                     <h4 id="barrver">
@@ -744,23 +761,63 @@
                     </h3>
 
                     <p>
-
+                        Enquanto a sintaxe básica do markdown apenas permite que os usuários criem blocos de códigos, que demonstram o código com fonte monoespaçada e com indentação natural do código. Porém, há a versão mais completa, os chamados blocos de código cercados, que permite cancelar indentação formatada do documento no modelo e apenas aplicar quanta indentação desejar.
                     </p>
+
+                    <pre>
+                        <code>
+                            ```
+                            {
+                                "Primeiro nome": "João",
+                                "Sobrenome": "da Silva",
+                                "Idade": "46"
+                            }
+                            ```
+                        </code>
+                    </pre>
+
+                    <p>
+                        A saída do código será demonstrada da seguinte forma:
+                    </p>
+
+                    <iframe src="" frameborder="0">
+                        
+                    </iframe>
 
                     <h4 id="destsin">
                         Destaque de Sintaxe
                     </h4>
 
                     <p>
-
+                        Além de podemos dar destaque a um texto comum em documentos markdown, podemos também realizar a mesma façanha em blocos de códigos cercados. Havendo apenas a diferença de serem destaques distintos, dessa vez por cor, não por alterações de estilos, como acontece nos textos, com o negrito e italico.
                     </p>
+
+                    <pre>
+                        <code>
+                            ```json
+                            {
+                                "Nome": "João",
+                                "Sobrenome": "da Silva",
+                                "Idade": "46"
+                            }
+                            ```
+                        </code>
+                    </pre>
+
+                    <p>
+                        A saída do código será demonstrada da seguinte forma:
+                    </p>
+
+                    <iframe src="" frameborder="0">
+
+                    </iframe>
 
                     <h3 id="notrod">
                         Notas de Rodapé
                     </h3>
 
                     <p>
-
+                        As sintaxes mais completas do markdown nos permite adicionar referências e pequenas notas no final de textos e artigos.
                     </p>
 
                     <h3 id="idcab">
@@ -768,31 +825,120 @@
                     </h3>
 
                     <p>
-                        
+                        Assim como o HTML, o markdown permite criar identificadores em seus cabeçalhos/títulos para formatações diversas e acesso rápido a pedaços de seus textos.
                     </p>
+
+                    <pre>
+                        <code>
+                            ## Dissecando o Projeto {#diss-pro}
+                        </code>
+                    </pre>
+
+                    <p>
+                        Em HTML:
+                    </p>
+
+                    <pre>
+                        <code>
+                            &lt;h2 id="diss-pro"&gt;Dissecando o Projeto&lt;/h3&gt;
+                        </code>
+                    </pre>
 
                     <h4 id="id">
                         Ligação aos identificadores de Cabeçalhos
                     </h4>
 
                     <p>
-
+                        A função acima é dada a capacidade de se ler o conteúdo mais rapidamente, permitindo o usuário de se locomover e explorar os documentos desejados de forma mais dinâmica e intuitiva, combinando os identificadores em títulos e os links.
                     </p>
+
+                    <table>
+                        <caption>
+                            Uso de identificadores para navegação em páginas
+                        </caption>
+
+                        <thead>
+                            <tr>
+                                <th scope="col">
+                                    Markdown
+                                </th>
+
+                                <th scope="col">
+                                    HTML
+                                </th>
+
+                                <th scope="col">
+                                    Renderização
+                                </th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    [ID Título](#tit-id)
+                                </td>
+                                
+                                <td>
+                                    &lt;a href="#tit-id"&gt;ID Título&lt;/a&gt;
+                                </td>
+
+                                <td>
+                                    <a href="#idcab">Identificadores de Cabeçalho</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
 
                     <h3 id="listdef">
                         Listas de Definições
                     </h3>
 
                     <p>
-
+                        
                     </p>
+
+                    <pre>
+                        <code>
+                            Primeiro termo
+                            : Definição do termo.
+
+                            Segundo termo
+                            : Primeira definição do termo.
+                            : Segunda definição do termo.
+                        </code>
+                    </pre>
+
+                    <p>
+                        O código em HTML seria:
+                    </p>
+
+                    <pre>
+                        <code>
+                            &lt;dl&gt;
+                                &lt;dt&gt;Primeiro termo&lt;/dt&gt;
+                                &lt;dd&gt;Definição do termo.&lt;/dd&gt;
+                                &lt;dt&gt;Segundo termo&lt;/dt&gt;
+                                &lt;dd&gt;Primeira definição do termo.&lt;/dd&gt;
+                                &lt;dd&gt;Segunda definição do termo.&lt;/dd&gt;
+                            &lt;/dl&gt;
+                        </code>
+                    </pre>
+
+                    <p>
+                        A saída do código será demonstrada da seguinte forma:
+                    </p>
+
+                    <iframe src="" frameborder="0">
+                        
+                    </iframe>
 
                     <h3 id="delword">
                         Palavras marcadas
                     </h3>
 
                     <p>
-
+                        É possível marcar palavras apenas ao por linhas horizontais em seus arredores
                     </p>
 
                     <h3 id="listtar">
@@ -950,7 +1096,7 @@
                                 </li>
                                 <details>
                                     <summary>
-                                        <a href="#enfp" style="">Ênfase de palavras</a>
+                                        <a href="#enfp">Ênfase de palavras</a>
                                     </summary>
 
                                     <ul>
