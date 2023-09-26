@@ -31,9 +31,15 @@ Acesso ao repositório com os materiais: [https://github.com/gustavoguanabara/gi
 
 ## Páginas das aulas
 
-- [O que é Git?](Explicações/O%20que%20é%20Git.html)
+- [O que é Git?](Explicações/git.html)
 
-- [O que é GitHub?](Explicações/O%20que%20é%20GitHub.html)
+- [O que é GitHub?](Explicações/github.html)
+
+- [Evolução do Git e GitHub](Explicações/evolucao-git-github.html)
+
+- [Guia da linguagem Markdown](Explicações/markdown.html)
+
+- [Git Branchs de forma fácil](Explicações/git-branchs.html)
 
 ## Atualizações
 

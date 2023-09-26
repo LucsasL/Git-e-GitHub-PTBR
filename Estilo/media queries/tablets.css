@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+header div#header-image {
+    width: 20%;
+}
+
+div#container {
+    width: 80vw;
+    margin: auto;
+}
