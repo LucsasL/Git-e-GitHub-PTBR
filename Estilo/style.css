@@ -99,7 +99,7 @@ article a:hover {
 
 /* Box settings */
 div#container {
-    width: 90vw;
+    width: 98vw;
     margin: auto;
 }
 
@@ -117,7 +117,7 @@ header {
 header div#header-image {
     position: relative;
     height: 100%;
-    width: 25%;
+    width: 28%;
 }
 
 header img {
