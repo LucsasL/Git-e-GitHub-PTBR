@@ -3,3 +3,11 @@
 header div#header-image {
     width: 15%;
 }
+
+div#nav-button {
+    display: none;
+}
+
+menu {
+    display: block;
+}

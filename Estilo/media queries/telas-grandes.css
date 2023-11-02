@@ -9,6 +9,10 @@ div#container {
     margin: auto;
 }
 
+div#nav-button {
+    display: none;
+}
+
 menu {
     display: block;
 }
