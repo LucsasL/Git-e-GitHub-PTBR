@@ -4,11 +4,9 @@ function menu() {
     const navContainer = document.querySelector('nav#header-nav')
     
     if (navItems.style.display == 'block') {
-        navContainer.style.height = '600px'
-        
+        navItems.style.display = 'none'
+
     } else {
-        navbutton.style.display = 'block'
         navItems.style.display = 'block'
-        navItems.style.width = '100%'
     }
 }
