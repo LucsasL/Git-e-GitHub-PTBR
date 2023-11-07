@@ -8,6 +8,6 @@ div#nav-button {
     display: none;
 }
 
-menu {
+.nav-items {
     display: block;
 }

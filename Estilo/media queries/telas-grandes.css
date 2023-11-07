@@ -13,11 +13,11 @@ div#nav-button {
     display: none;
 }
 
-menu {
+.nav-items {
     display: block;
 }
 
-menu > ul > li {
+div.nav-items > ul > li {
     display: inline;
 }
 

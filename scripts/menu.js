@@ -4,7 +4,6 @@ function menu() {
     const navContainer = document.querySelector('nav#header-nav')
     
     if (navItems.style.display == 'block') {
-        navItems.style.display = 'none'
         navContainer.style.height = '600px'
         
     } else {
