@@ -17,6 +17,10 @@ menu {
     display: block;
 }
 
+menu > ul > li {
+    display: inline;
+}
+
 main {
     display: flex;
     justify-content: space-evenly;
